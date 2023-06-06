@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Single" class="navigator-link">
+              <span class="suite-name border-passed">Single</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Single" class="navigator-link ">
+                    <span>newtestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Single" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Single" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Single" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Single" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Single" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Single" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Single" class="hide-methods passed suite-Single"> (hide)</a> <!-- hide-methods passed suite-Single -->
+                      <a href="#" panel-name="suite-Single" class="show-methods passed suite-Single"> (show)</a> <!-- show-methods passed suite-Single -->
+                    </span>
+                    <div class="method-list-content passed suite-Single">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp">VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyAllPaymentMethodsListedOnSummaryPage">VerifyAllPaymentMethodsListedOnSummaryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyBuyNowBtnTookToShoppingCart">VerifyBuyNowBtnTookToShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyCardDetailsAreEditable">VerifyCardDetailsAreEditable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyCheckOutBtnRedirectsToSummaryPage">VerifyCheckOutBtnRedirectsToSummaryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyCickingOnCreditOrDebitCardRedirectToCardDetails">VerifyCickingOnCreditOrDebitCardRedirectToCardDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyClickingOnOKBtnWithValidOTP">VerifyClickingOnOKBtnWithValidOTP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen">VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyMidtransPillowHasAddedIntoCart">VerifyMidtransPillowHasAddedIntoCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable">VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable">VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyOrderAmountOnCreditCardScreen">VerifyOrderAmountOnCreditCardScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="SeleniumAutomation.Tests.TestTo" class="method navigator-link" hash-for-method="VerifyPromoCodeBtnWorks">VerifyPromoCodeBtnWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Single -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Single" class="panel Single">
+          <div class="suite-Single-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumAutomation.Tests.TestTo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp">
+                  </a> <!-- VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp -->
+                  <span class="method-name">VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllPaymentMethodsListedOnSummaryPage">
+                  </a> <!-- VerifyAllPaymentMethodsListedOnSummaryPage -->
+                  <span class="method-name">VerifyAllPaymentMethodsListedOnSummaryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBuyNowBtnTookToShoppingCart">
+                  </a> <!-- VerifyBuyNowBtnTookToShoppingCart -->
+                  <span class="method-name">VerifyBuyNowBtnTookToShoppingCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCardDetailsAreEditable">
+                  </a> <!-- VerifyCardDetailsAreEditable -->
+                  <span class="method-name">VerifyCardDetailsAreEditable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCheckOutBtnRedirectsToSummaryPage">
+                  </a> <!-- VerifyCheckOutBtnRedirectsToSummaryPage -->
+                  <span class="method-name">VerifyCheckOutBtnRedirectsToSummaryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCickingOnCreditOrDebitCardRedirectToCardDetails">
+                  </a> <!-- VerifyCickingOnCreditOrDebitCardRedirectToCardDetails -->
+                  <span class="method-name">VerifyCickingOnCreditOrDebitCardRedirectToCardDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClickingOnOKBtnWithValidOTP">
+                  </a> <!-- VerifyClickingOnOKBtnWithValidOTP -->
+                  <span class="method-name">VerifyClickingOnOKBtnWithValidOTP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen">
+                  </a> <!-- VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen -->
+                  <span class="method-name">VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMidtransPillowHasAddedIntoCart">
+                  </a> <!-- VerifyMidtransPillowHasAddedIntoCart -->
+                  <span class="method-name">VerifyMidtransPillowHasAddedIntoCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable">
+                  </a> <!-- VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable -->
+                  <span class="method-name">VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable">
+                  </a> <!-- VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable -->
+                  <span class="method-name">VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyOrderAmountOnCreditCardScreen">
+                  </a> <!-- VerifyOrderAmountOnCreditCardScreen -->
+                  <span class="method-name">VerifyOrderAmountOnCreditCardScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPromoCodeBtnWorks">
+                  </a> <!-- VerifyPromoCodeBtnWorks -->
+                  <span class="method-name">VerifyPromoCodeBtnWorks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-passed -->
+        </div> <!-- panel Single -->
+        <div panel-name="test-xml-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/fatimanizam/Desktop/FinalProjectPt2/newtestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Single&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;SingleTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumAutomation.Tests.TestTo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SingleTest --&gt;
+&lt;/suite&gt; &lt;!-- Single --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SingleTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyAllPaymentMethodsListedOnSummaryPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyBuyNowBtnTookToShoppingCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyCardDetailsAreEditable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyCheckOutBtnRedirectsToSummaryPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyCickingOnCreditOrDebitCardRedirectToCardDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyClickingOnOKBtnWithValidOTP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyMidtransPillowHasAddedIntoCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyOrderAmountOnCreditCardScreen</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyPromoCodeBtnWorks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyAllPaymentMethodsListedOnSummaryPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyBuyNowBtnTookToShoppingCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyCheckOutBtnRedirectsToSummaryPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyClickingOnOKBtnWithValidOTP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyOrderAmountOnCreditCardScreen</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyPromoCodeBtnWorks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Single');
+function tableData_Single() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyClickingOnOKBtnWithValidOTP')
+data.setCell(0, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(0, 3, 18100);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyAllPaymentMethodsListedOnSummaryPage')
+data.setCell(1, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(1, 3, 10072);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyCickingOnCreditOrDebitCardRedirectToCardDetails')
+data.setCell(2, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(2, 3, 5165);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp')
+data.setCell(3, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(3, 3, 5082);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyOrderAmountOnCreditCardScreen')
+data.setCell(4, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(4, 3, 4176);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyCardDetailsAreEditable')
+data.setCell(5, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(5, 3, 3499);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyPromoCodeBtnWorks')
+data.setCell(6, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(6, 3, 2093);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable')
+data.setCell(7, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(7, 3, 1640);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable')
+data.setCell(8, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(8, 3, 248);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyBuyNowBtnTookToShoppingCart')
+data.setCell(9, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(9, 3, 234);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyMidtransPillowHasAddedIntoCart')
+data.setCell(10, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(10, 3, 128);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen')
+data.setCell(11, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(11, 3, 97);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyCheckOutBtnRedirectsToSummaryPage')
+data.setCell(12, 2, 'SeleniumAutomation.Tests.TestTo')
+data.setCell(12, 3, 91);
+window.suiteTableData['Single']= { tableData: data, tableDiv: 'times-div-Single'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <div id="times-div-Single">
+              </div> <!-- times-div-Single -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumAutomation.Tests.TestTo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyMidtransPillowHasAddedIntoCart</span>
+                <span class="method-start">9285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyBuyNowBtnTookToShoppingCart</span>
+                <span class="method-start">9430 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable</span>
+                <span class="method-start">9665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable</span>
+                <span class="method-start">9915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyCheckOutBtnRedirectsToSummaryPage</span>
+                <span class="method-start">11556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp</span>
+                <span class="method-start">11648 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllPaymentMethodsListedOnSummaryPage</span>
+                <span class="method-start">16731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyCickingOnCreditOrDebitCardRedirectToCardDetails</span>
+                <span class="method-start">26804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyOrderAmountOnCreditCardScreen</span>
+                <span class="method-start">31970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyCardDetailsAreEditable</span>
+                <span class="method-start">36147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyPromoCodeBtnWorks</span>
+                <span class="method-start">39647 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen</span>
+                <span class="method-start">41741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyClickingOnOKBtnWithValidOTP</span>
+                <span class="method-start">41839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">terminateTest</span>
+                <span class="method-start">59940 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

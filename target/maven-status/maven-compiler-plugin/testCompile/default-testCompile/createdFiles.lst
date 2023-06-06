@@ -1,0 +1,9 @@
+SeleniumAutomation/Pages/PaymentVerification.class
+SeleniumAutomation/Pages/HomePage.class
+APIRestAssured/APItesting.class
+SeleniumAutomation/Pages/SummaryPage.class
+SeleniumAutomation/Tests/TestTo.class
+SeleniumAutomation/Utils/Utils.class
+SeleniumAutomation/Utils/SetUp.class
+SeleniumAutomation/Pages/CreditCardDetails.class
+SeleniumAutomation/Pages/CheckOutPopUp.class

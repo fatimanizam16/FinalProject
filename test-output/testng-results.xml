@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-06T06:39:59Z" name="Single" finished-at="2023-06-06T06:40:59Z" duration-ms="60210">
+    <groups>
+      <group name="Regression">
+        <method signature="TestTo.VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp()[pri:6, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyAllPaymentMethodsListedOnSummaryPage()[pri:7, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyAllPaymentMethodsListedOnSummaryPage" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyBuyNowBtnTookToShoppingCart()[pri:2, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyBuyNowBtnTookToShoppingCart" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyCardDetailsAreEditable()[pri:10, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyCardDetailsAreEditable" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyCheckOutBtnRedirectsToSummaryPage()[pri:5, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyCheckOutBtnRedirectsToSummaryPage" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyCickingOnCreditOrDebitCardRedirectToCardDetails()[pri:8, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyCickingOnCreditOrDebitCardRedirectToCardDetails" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyClickingOnOKBtnWithValidOTP()[pri:13, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyClickingOnOKBtnWithValidOTP" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen()[pri:12, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyMidtransPillowHasAddedIntoCart()[pri:1, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyMidtransPillowHasAddedIntoCart" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable()[pri:3, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable()[pri:4, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyOrderAmountOnCreditCardScreen()[pri:9, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyOrderAmountOnCreditCardScreen" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyPromoCodeBtnWorks()[pri:11, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyPromoCodeBtnWorks" class="SeleniumAutomation.Tests.TestTo"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestTo.VerifyAllPaymentMethodsListedOnSummaryPage()[pri:7, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyAllPaymentMethodsListedOnSummaryPage" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyBuyNowBtnTookToShoppingCart()[pri:2, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyBuyNowBtnTookToShoppingCart" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyCheckOutBtnRedirectsToSummaryPage()[pri:5, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyCheckOutBtnRedirectsToSummaryPage" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyClickingOnOKBtnWithValidOTP()[pri:13, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyClickingOnOKBtnWithValidOTP" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyOrderAmountOnCreditCardScreen()[pri:9, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyOrderAmountOnCreditCardScreen" class="SeleniumAutomation.Tests.TestTo"/>
+        <method signature="TestTo.VerifyPromoCodeBtnWorks()[pri:11, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" name="VerifyPromoCodeBtnWorks" class="SeleniumAutomation.Tests.TestTo"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-06-06T06:39:59Z" name="SingleTest" finished-at="2023-06-06T06:40:59Z" duration-ms="60210">
+      <class name="SeleniumAutomation.Tests.TestTo">
+        <test-method is-config="true" signature="launchTest()[pri:0, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:39:59Z" name="launchTest" finished-at="2023-06-06T06:40:08Z" duration-ms="9271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTest -->
+        <test-method signature="VerifyMidtransPillowHasAddedIntoCart()[pri:1, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:08Z" name="VerifyMidtransPillowHasAddedIntoCart" finished-at="2023-06-06T06:40:08Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMidtransPillowHasAddedIntoCart -->
+        <test-method signature="VerifyBuyNowBtnTookToShoppingCart()[pri:2, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:09Z" name="VerifyBuyNowBtnTookToShoppingCart" finished-at="2023-06-06T06:40:09Z" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBuyNowBtnTookToShoppingCart -->
+        <test-method signature="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable()[pri:3, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:09Z" name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable" finished-at="2023-06-06T06:40:09Z" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable -->
+        <test-method signature="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable()[pri:4, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:09Z" name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable" finished-at="2023-06-06T06:40:11Z" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable -->
+        <test-method signature="VerifyCheckOutBtnRedirectsToSummaryPage()[pri:5, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:11Z" name="VerifyCheckOutBtnRedirectsToSummaryPage" finished-at="2023-06-06T06:40:11Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckOutBtnRedirectsToSummaryPage -->
+        <test-method signature="VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp()[pri:6, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:11Z" name="VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp" finished-at="2023-06-06T06:40:16Z" duration-ms="5082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp -->
+        <test-method signature="VerifyAllPaymentMethodsListedOnSummaryPage()[pri:7, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:16Z" name="VerifyAllPaymentMethodsListedOnSummaryPage" finished-at="2023-06-06T06:40:26Z" duration-ms="10072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllPaymentMethodsListedOnSummaryPage -->
+        <test-method signature="VerifyCickingOnCreditOrDebitCardRedirectToCardDetails()[pri:8, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:26Z" name="VerifyCickingOnCreditOrDebitCardRedirectToCardDetails" finished-at="2023-06-06T06:40:31Z" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCickingOnCreditOrDebitCardRedirectToCardDetails -->
+        <test-method signature="VerifyOrderAmountOnCreditCardScreen()[pri:9, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:31Z" name="VerifyOrderAmountOnCreditCardScreen" finished-at="2023-06-06T06:40:35Z" duration-ms="4176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrderAmountOnCreditCardScreen -->
+        <test-method signature="VerifyCardDetailsAreEditable()[pri:10, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:35Z" name="VerifyCardDetailsAreEditable" finished-at="2023-06-06T06:40:39Z" duration-ms="3499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCardDetailsAreEditable -->
+        <test-method signature="VerifyPromoCodeBtnWorks()[pri:11, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:39Z" name="VerifyPromoCodeBtnWorks" finished-at="2023-06-06T06:40:41Z" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPromoCodeBtnWorks -->
+        <test-method signature="VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen()[pri:12, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:41Z" name="VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen" finished-at="2023-06-06T06:40:41Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen -->
+        <test-method signature="VerifyClickingOnOKBtnWithValidOTP()[pri:13, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:41Z" name="VerifyClickingOnOKBtnWithValidOTP" finished-at="2023-06-06T06:40:59Z" duration-ms="18100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickingOnOKBtnWithValidOTP -->
+        <test-method is-config="true" signature="terminateTest()[pri:0, instance:SeleniumAutomation.Tests.TestTo@51b7e5df]" started-at="2023-06-06T06:40:59Z" name="terminateTest" finished-at="2023-06-06T06:40:59Z" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateTest -->
+      </class> <!-- SeleniumAutomation.Tests.TestTo -->
+    </test> <!-- SingleTest -->
+  </suite> <!-- Single -->
+</testng-results>

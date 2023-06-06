@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Single]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="SingleTest(failed)" verbose="0">
+    <classes>
+      <class name="SeleniumAutomation.Tests.TestTo">
+        <methods>
+          <include name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable"/>
+          <include name="VerifyCickingOnCreditOrDebitCardRedirectToCardDetails"/>
+          <include name="terminateTest"/>
+          <include name="VerifyOrderAmountOnCreditCardScreen"/>
+          <include name="launchTest"/>
+          <include name="VerifyBuyNowBtnTookToShoppingCart"/>
+          <include name="VerifyCheckOutBtnRedirectsToSummaryPage"/>
+          <include name="VerifyMidtransPillowHasAddedIntoCart"/>
+          <include name="VerifyPromoCodeBtnWorks"/>
+          <include name="VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp"/>
+          <include name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable"/>
+          <include name="VerifyAllPaymentMethodsListedOnSummaryPage"/>
+          <include name="VerifyCardDetailsAreEditable"/>
+          <include name="VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen"/>
+        </methods>
+      </class> <!-- SeleniumAutomation.Tests.TestTo -->
+    </classes>
+  </test> <!-- SingleTest(failed) -->
+</suite> <!-- Failed suite [Single] -->

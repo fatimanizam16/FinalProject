@@ -7,6 +7,8 @@
             <run>
                 <include name="Smoke"></include>
                 <include name="Regression"></include>
+                <include name="Regression,Smoke"></include>
+                
             </run>
         </groups>
 

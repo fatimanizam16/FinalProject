@@ -5,20 +5,9 @@
     <classes>
       <class name="SeleniumAutomation.Tests.TestTo">
         <methods>
-          <include name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsEditable"/>
-          <include name="VerifyCickingOnCreditOrDebitCardRedirectToCardDetails"/>
           <include name="terminateTest"/>
-          <include name="VerifyOrderAmountOnCreditCardScreen"/>
+          <include name="VerifyClickingOnOKBtnWithValidOTP"/>
           <include name="launchTest"/>
-          <include name="VerifyBuyNowBtnTookToShoppingCart"/>
-          <include name="VerifyCheckOutBtnRedirectsToSummaryPage"/>
-          <include name="VerifyMidtransPillowHasAddedIntoCart"/>
-          <include name="VerifyPromoCodeBtnWorks"/>
-          <include name="VerifyAllInfoAboutOrderIsVisibleOnSummaryPopUp"/>
-          <include name="VerifyNameEmailCityAddressPhoneNumberPostalCodeIsAvailable"/>
-          <include name="VerifyAllPaymentMethodsListedOnSummaryPage"/>
-          <include name="VerifyCardDetailsAreEditable"/>
-          <include name="VerifyClickingOnPaynowRedirectUsrtoBankPaymentScreen"/>
         </methods>
       </class> <!-- SeleniumAutomation.Tests.TestTo -->
     </classes>
